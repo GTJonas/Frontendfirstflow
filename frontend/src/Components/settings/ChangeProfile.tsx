@@ -1,9 +1,5 @@
 import React, { useState, useEffect } from "react";
-import {
-  encryptData,
-  decryptData,
-  updateProfile,
-} from "../../../frontend/src/api/api"; // Import your updateProfile function
+import { encryptData, decryptData, updateProfile } from "../../../src/api/api"; // Import your updateProfile function
 
 const ChangeProfile = ({ user }) => {
   const [uuid, setUuid] = useState("");

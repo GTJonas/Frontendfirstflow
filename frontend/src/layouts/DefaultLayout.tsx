@@ -1,4 +1,4 @@
-import SideMenu from "../../../Temp/components/SideMenu.tsx";
+import SideMenu from "../components/SideMenu.tsx";
 import Dashboard from "./Views/Dashboard.tsx";
 import { decryptData } from "../api/api.tsx";
 import { useLocation, useNavigate } from "react-router-dom";

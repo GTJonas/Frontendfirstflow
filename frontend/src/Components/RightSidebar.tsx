@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
-import getAuthHeaders from "../../frontend/src/api/getAuthHeaders.tsx";
-import defaultimage from "../assets/default.png";
+import getAuthHeaders from "../../src/api/getAuthHeaders.tsx";
+import defaultimage from "../assets/company/profile.png";
 import { useHistory, Link } from "react-router-dom"; // Import useHistory
 
 function RightSidebar({ user }) {

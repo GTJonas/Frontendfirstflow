@@ -1,13 +1,13 @@
 import { useEffect, useState } from "react";
-import "./Style-modules/contentWrapper-style-module.css";
+// import "./Style-modules/contentWrapper-style-module.css";
 import CreateSchoolClass from "./class/createSchoolClass.tsx";
 
 import ShowOwnClass from "./class/showOwnSchoolClass.tsx";
 import Scrollbar from "./Menu/Scrollbar.tsx";
-import "../components/Style-modules/Scrollbar-style-module.css";
+// import "../components/Style-modules/Scrollbar-style-module.css";
 import CreatePost from "./posts/createPost.tsx";
 import Stats from "./posts/Stats.tsx";
-import Company from "../views/Company.tsx";
+import Company from "../layouts/Views/Company.tsx";
 import FilteredPosts from "./posts/filteredPosts/FilteredPosts.tsx";
 import { useLocation } from "react-router-dom";
 import CompanyLists from "./company/CompanyLists.tsx";

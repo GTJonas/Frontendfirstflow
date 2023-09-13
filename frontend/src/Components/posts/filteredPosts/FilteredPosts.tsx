@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 import jwtDecode from "jwt-decode";
-import getAuthHeaders from "../../../../frontend/src/api/getAuthHeaders.tsx";
+import getAuthHeaders from "../../../../src/api/getAuthHeaders.tsx";
 import "../../../assets/Icons/Icons.css";
-import PostItem from "./PostItem"; // Import your PostItem component here
+import PostItem from "./postItem.tsx"; // Import your PostItem component here
 import { useLocation } from "react-router-dom";
 
 const API_BASE_URL = "http://194.71.0.30:8000/api"; // Change to your API URL

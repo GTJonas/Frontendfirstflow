@@ -1,5 +1,5 @@
 import ContentSwitcher from "./contentSwitcher";
-import Scrollbar from "./Scrollbar";
+import Scrollbar from "./Menu/Scrollbar";
 import "./Style-modules/contentWrapper-style-module.css";
 
 function ContentWrapper({ user }: { user: any }) {

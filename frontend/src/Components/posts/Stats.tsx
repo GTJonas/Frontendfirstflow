@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
-import getAuthHeaders from "../../../frontend/src/api/getAuthHeaders";
-import DoughnutChart from "../../Charts/UserattendanceChart";
+import getAuthHeaders from "../../api/getAuthHeaders";
+import DoughnutChart from "../Charts/UserattendanceChart";
 
 const Stats = () => {
   const [classData, setClassData] = useState(null);
